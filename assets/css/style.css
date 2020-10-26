@@ -63,9 +63,9 @@ header{
 }
 
 @keyframes logo-ani{
-	0%{transform: rotate(50deg);}
-	50%{transform: rotate(-50deg);}
-	100%{transform: rotate(50deg);}
+	0%{transform: rotate(10deg);}
+	50%{transform: rotate(-10deg);}
+	100%{transform: rotate(10deg);}
 }
 
 .button{
