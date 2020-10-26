@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+html{
+	font-size: 100%;
+}
+body{
+	background-color: #f09b1d;
+	font-family:'Grandstander', cursive,"Nico Moji";
+	line-height: 1.7;
+	color: #635541;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+
+
+
+.logo{
+	width: 210px;
+	margin-top: 14px;
+	color: #f09b1d;
+}
+.main-nav{
+	display: flex;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	margin-top: 34px;
+	list-style: none;
+}
+.main-nav li{
+	margin-left: 36px;
+}
+.main-nav a{
+	color: #f09b1d;
+}
+a:hover{
+	color: #ff00bb;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	background-color: #580075;
+	margin: 0 auto;
+	padding: 0 4%;
+}
+
+.atama{
+	background-image: url(../image/header-bg.png);
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+}
+.atama>img{
+	width: 70%;
+	animation-duration:4s;
+	animation-name:logo-ani;
+	animation-iteration-count: infinite;
+}
+
+@keyframes logo-ani{
+	0%{transform: rotate(50deg);}
+	50%{transform: rotate(-50deg);}
+	100%{transform: rotate(50deg);}
+}
+
+.button{
+	padding: 50px;
+}
+
+.button a{
+	font-size: 2rem;
+	background-color: #f09b1d;
+	border-radius: 5px;
+	padding: 18px 52px;
+	color: #580075;
+}
+.button a:hover{
+	background-color: #ff00bb;
+	transition-duration: .5s;
+}
+
+.title{
+	text-align: center;
+	font-size: 64px;
+	margin: 18px;
+}
+
+.menu{
+	display: grid;
+	column-gap: 40px;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 0 30px 30px;
+}
+.item{
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 10px;
+	background-color: #635541;
+}
+.item p{
+	padding-bottom: 12px;
+	margin: -15px;
+	color: #dbcea4;
+}
+
+footer{
+	background-color: #580075;
+	text-align: center;
+	padding: 3px 0;
+}
+footer p{
+	color: #fff;
+	font-size: 0.87rem;
+	font-family: sans-serif;
+}
